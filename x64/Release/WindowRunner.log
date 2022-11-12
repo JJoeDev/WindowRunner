@@ -1,0 +1,9 @@
+﻿  Runner.cpp
+C:\Skol\SkolKode\C++\WindowRunner\WindowRunner\Runner.cpp(70,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Skol\SkolKode\C++\WindowRunner\WindowRunner\Runner.cpp(131,55): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Generating code
+  2 of 4 functions (50.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  WindowRunner.vcxproj -> C:\Skol\SkolKode\C++\WindowRunner\x64\Release\WindowRunner.exe

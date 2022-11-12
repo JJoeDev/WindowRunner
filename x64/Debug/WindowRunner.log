@@ -1,0 +1,4 @@
+﻿  Runner.cpp
+C:\Skol\SkolKode\C++\WindowRunner\WindowRunner\Runner.cpp(70,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Skol\SkolKode\C++\WindowRunner\WindowRunner\Runner.cpp(132,55): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  WindowRunner.vcxproj -> C:\Skol\SkolKode\C++\WindowRunner\x64\Debug\WindowRunner.exe
