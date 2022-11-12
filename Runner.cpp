@@ -1,6 +1,5 @@
 #include <windows.h>
 #include <cstdlib>
-#include <cstring>
 #include <tchar.h>
 #include <iostream>
 
@@ -22,6 +21,7 @@ LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
 int maxX = 0;
 int maxY = 0;
 LPCSTR path;
+char buffer[MAX_PATH];
 
 void DesktopRes(int& horizontal, int& vertical)
 {
@@ -42,7 +42,6 @@ int WINAPI WinMain(
 	_In_ int nCmdShow
 )
 {
-	char buffer[MAX_PATH];
 	GetModuleFileNameA(nullptr, buffer, MAX_PATH);
 	path = buffer;
 
